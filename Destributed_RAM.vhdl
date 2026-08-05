@@ -13,10 +13,10 @@ generic (
     Port (     
 	            Clock         : in  STD_LOGIC;
 	            WE            : in  STD_LOGIC;
-               Data_In       : in  unsigned  (DATA_width-1   downto 0);
-               Write_Address : in  unsigned  (ADDER_width-1 downto 0);
-               Read_Address  : in  unsigned  (ADDER_width-1 downto 0);
-					Data_out      : out unsigned  (DATA_width-1   downto 0)
+               Data_In        : in  unsigned  (DATA_width-1   downto 0);
+               Write_Address  : in  unsigned  (ADDER_width-1 downto 0);
+               Read_Address   : in  unsigned  (ADDER_width-1 downto 0);
+			   Data_out       : out unsigned  (DATA_width-1   downto 0)
 			  );
 end Destributed_RAM;
 
@@ -39,7 +39,7 @@ Data_out <= Ram_Type1( to_integer (Read_Address)); ---read Asankron---
 			if(WE='1') then
 			Ram_Type1( to_integer (Write_Address))<= Data_In;
 			end if;
-					
+								
 	end if;
 end process;
 end Behavioral;
