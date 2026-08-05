@@ -73,7 +73,7 @@ BEGIN
       -- insert stimulus here 
  WE_Top  <= '1';
  for i in 0 to 63 loop
- expected (i) := to_unsigned (i+100 , 10);
+ expected (i) <= to_unsigned (i+100 , 10);
  
  Write_Address_Top  <=   to_unsigned (i , 7);
  Data_In_Top   <=  expected (i);
