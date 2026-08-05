@@ -12,3 +12,5 @@ Destributed_RAM : Sub module
 
 testbench  :DRAM_tb_1 and DRAM_tb_2  and DRAM_tb_3
 
+file UCF : DRAM_TOP.ucf
+
