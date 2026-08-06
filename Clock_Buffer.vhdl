@@ -4,14 +4,14 @@ Library UNISIM;
 use UNISIM.vcomponents.all;
 
 
-entity Temp_BUFG is
+entity Clock_Buffer is
     Port ( 
 	        CLK_in : in  STD_LOGIC;
            CLK_out : out  STD_LOGIC
 			  );
-end Temp_BUFG;
+end Clock_Buffer;
 
-architecture Behavioral of Temp_BUFG is
+architecture Behavioral of Clock_Buffer is
 
 signal Clkout_Int : std_logic ;
 
