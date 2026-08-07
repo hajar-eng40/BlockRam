@@ -7,13 +7,13 @@ use UNISIM.vcomponents.all;
 
 entity CLK_ODDR is
     Port ( 
-	        Clk_IN_TOP     : in   STD_LOGIC;
-	        data1          : in   STD_LOGIC;
-           data2          : in   STD_LOGIC;
+	        Clk_IN_TOP       : in   STD_LOGIC;
+	        data1            : in   STD_LOGIC;
+           data2             : in   STD_LOGIC;
 			  Clk_En         : in   STD_LOGIC;
 			  Data_Reset     : in   STD_LOGIC;
-           Data_SET       : in   STD_LOGIC;
-           data_out       : out  STD_LOGIC			  
+           Data_SET          : in   STD_LOGIC;
+           data_out          : out  STD_LOGIC			  
 			  );
 end CLK_ODDR;
 
