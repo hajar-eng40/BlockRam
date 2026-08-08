@@ -14,4 +14,4 @@ testbench  :DRAM_tb_1 and DRAM_tb_2  and DRAM_tb_3
 
 file UCF : DRAM_TOP.ucf
 
-Clock_Buffer : In this code, a clock is generated using BUFG and IBUFG primitives.
+
