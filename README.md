@@ -4,7 +4,7 @@ BlockRAm : Sub module
 
 Read_BRAM : Top module
 
-spartan6 LX9 , by ISE
+FPGA is spartan6 LX9 , by ISE
 
 
 
